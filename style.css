@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: fantasy;
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
@@ -95,6 +95,8 @@ h1 {
   margin-bottom: 3rem;
 }
 
+
+
 .btn {
   border: none;
   background-color: #eee;
@@ -103,6 +105,14 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  position: absolute;
+}
+
+.check {
+  position: fixed;
+  left: 599px;
+  top: 550px;
+
 }
 
 .btn:hover {
