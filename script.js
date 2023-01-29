@@ -16,7 +16,7 @@ const secretNumber = Math.trunc(Math.random() * 20) + 1;
 
 let score = 20;
 
-let highscore = score;
+let highscore = 0;
 
 function checkClick() {
   const guess = Number(document.querySelector
